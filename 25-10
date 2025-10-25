@@ -1,0 +1,33 @@
+# toán tử
+# + - * / ** // %
+
+# điều kiện
+#1 có = 2 hay không?
+#print (1==2)
+
+# < <= > >=
+#print(1<=2)
+
+# 1 có khác 2 hay không
+#print(1 != 2)
+#------
+# vòng lặp - loop
+# for - lặp với số lần xác định - lặp 5 lần
+# Range ([số bắt đầu], [số kết thúc]) - chạy từ số đầu, và kiểm tra số đó kết thúc chưa, 1,5 -> 1 -> 5
+
+for i in range(1,5):
+    print(i)
+# Bài tập: viết 1 chương trình nhập số bắt đầu và kết thúc. sau đó in ra dãy số đó
+# input:
+# nhập số bắt đầu : 2
+# nhập số kết thúc: 4
+# output:
+# 2
+# 3
+# 4
+a = int(input("nhập số bắt đầu: "))
+b = int(input("nhập số kết thúc: "))
+print("kết quả")
+for i in range(a,b+1):
+    print(i)
+# while - 
