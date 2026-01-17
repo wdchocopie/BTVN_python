@@ -1,0 +1,15 @@
+# def tinhtong(a) -> None:
+#     print(a)
+# tinhtong(1)
+
+# Viết 1 hàm, 
+# truyền 1 tham số, 
+# + nó với 1 rồi in ra
+
+def tinh_hieu(a,b):
+    print(a-b)
+
+tinh_hieu(1,2)
+
+tinhtong(1)
+
